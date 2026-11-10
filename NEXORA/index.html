@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b14">
+<title>NEXORA | تصميم مواقع تصنع فرقًا</title>
+<style>
+:root{--bg:#090b14;--panel:#111522;--panel2:#171c2d;--text:#f4f6ff;--muted:#a5abc0;--line:rgba(255,255,255,.1);--violet:#8b5cf6;--cyan:#55e6d0;--pink:#ff6b9d;--radius:24px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 10% 5%,rgba(139,92,246,.17),transparent 32%),radial-gradient(ellipse at 92% 32%,rgba(85,230,208,.09),transparent 27%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.7;overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:900;letter-spacing:-1px}.brand-mark{width:39px;height:39px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--violet),var(--cyan));color:#080b14;font-weight:1000;box-shadow:0 8px 35px #8b5cf644}.navlinks{display:flex;gap:27px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}.pill{border:1px solid var(--line);border-radius:999px;padding:10px 16px;color:var(--text);font-size:13px;background:#ffffff06}.hero{padding:66px 0 80px;display:grid;grid-template-columns:1.02fr .98fr;gap:45px;align-items:center;min-height:570px}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid #8b5cf64d;background:#8b5cf617;padding:7px 13px;border-radius:999px;color:#d6c8ff;font-size:12px}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}h1{font-size:clamp(38px,5.5vw,68px);line-height:1.16;letter-spacing:-2.5px;margin:22px 0}.gradient{background:linear-gradient(100deg,var(--cyan),#b6a0ff 48%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:17px;color:var(--muted);max-width:550px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn{border:0;border-radius:14px;padding:14px 21px;cursor:pointer;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:transform .25s,box-shadow .25s,background .25s}.btn:hover{transform:translateY(-3px)}.primary{color:#090b14;background:linear-gradient(110deg,var(--cyan),#b4f8ed);box-shadow:0 10px 32px #55e6d02b}.secondary{border:1px solid var(--line);background:#ffffff08;color:var(--text)}.micro{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:23px}.micro span:before{content:"✓";color:var(--cyan);margin-left:7px}.visual{position:relative;min-height:420px;display:grid;place-items:center}.orb{position:absolute;width:330px;height:330px;border-radius:50%;background:linear-gradient(140deg,#8b5cf640,#55e6d018);filter:blur(3px);animation:float 7s ease-in-out infinite}.browser{position:relative;width:min(100%,470px);border:1px solid #ffffff25;background:#101422e8;border-radius:22px;overflow:hidden;box-shadow:0 35px 90px #0008;transform:rotate(-2deg);animation:float 6s ease-in-out infinite}.browser-top{display:flex;align-items:center;gap:6px;padding:13px 16px;border-bottom:1px solid var(--line);color:#858ba1;font-size:10px}.browser-top i{width:7px;height:7px;border-radius:50%;background:#ff6b9d}.browser-top i:nth-child(2){background:#f6c45e}.browser-top i:nth-child(3){background:#55e6d0}.mock-site{padding:20px}.mock-nav{display:flex;align-items:center;justify-content:space-between;font-size:11px}.mock-logo{font-weight:900}.mock-hero{margin-top:26px;border-radius:17px;padding:25px 20px;background:linear-gradient(135deg,#26204a,#141e35);min-height:190px;position:relative;overflow:hidden}.mock-hero:after{content:"";position:absolute;width:140px;height:140px;border-radius:35px;left:-25px;bottom:-42px;transform:rotate(28deg);background:linear-gradient(135deg,#55e6d0a8,#8b5cf6aa)}.mock-hero small{color:var(--cyan)}.mock-hero h3{font-size:23px;line-height:1.35;margin:10px 0;max-width:240px}.mock-hero p{font-size:10px;color:#aeb6cc}.mock-cta{display:inline-block;background:var(--cyan);color:#081018;border-radius:8px;padding:7px 12px;font-size:10px;font-weight:bold}.mock-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:12px}.mock-card{border:1px solid var(--line);background:#ffffff06;border-radius:11px;padding:13px 10px;font-size:10px}.mock-card b{display:block;color:var(--cyan);font-size:16px}.float-tag{position:absolute;border:1px solid #ffffff20;background:#151a2bed;backdrop-filter:blur(12px);border-radius:14px;padding:12px 15px;box-shadow:0 15px 40px #0006;font-size:12px;animation:float 5s ease-in-out infinite}.float-tag strong{display:block;font-size:17px}.tag-one{top:30px;right:-5px}.tag-two{bottom:35px;left:-10px;animation-delay:-2s}.section{padding:74px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.kicker{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:1px}.section h2{font-size:clamp(28px,4vw,43px);line-height:1.25;margin:10px 0}.section-head p{color:var(--muted);margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.service,.project,.form-card,.step{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,#ffffff08,#ffffff03);transition:transform .3s,border-color .3s;overflow:hidden}.service{padding:24px}.service:hover,.project:hover{transform:translateY(-7px);border-color:#8b5cf67a}.iconbox{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:#8b5cf622;color:var(--cyan);font-size:23px}.service h3{margin:17px 0 7px}.service p{color:var(--muted);font-size:14px;margin:0}.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project-art{height:205px;padding:18px;display:grid;place-items:center;overflow:hidden}.project:nth-child(1) .project-art{background:linear-gradient(135deg,#151c39,#302057)}.project:nth-child(2) .project-art{background:linear-gradient(135deg,#112b2b,#163e46)}.project:nth-child(3) .project-art{background:linear-gradient(135deg,#321b2b,#55233f)}.art-window{width:90%;height:150px;border-radius:12px;border:1px solid #ffffff45;background:#ffffffeb;color:#17202b;padding:12px;box-shadow:0 15px 30px #0004;transform:rotate(-3deg);transition:transform .3s}.project:hover .art-window{transform:rotate(0) scale(1.03)}.art-top{height:9px;border-bottom:1px solid #d8dce4;font-size:7px;margin-bottom:12px;color:#7e8595}.art-title{font-size:15px;font-weight:900;line-height:1.35;max-width:170px}.art-lines{height:5px;width:65%;background:#dfe3eb;border-radius:5px;margin-top:7px}.art-lines.short{width:40%}.art-btn{height:16px;width:67px;background:#8b5cf6;border-radius:5px;margin-top:12px}.project:nth-child(2) .art-btn{background:#1a9b8b}.project:nth-child(3) .art-btn{background:#e85d93}.project-info{padding:19px}.project-info small{color:var(--cyan)}.project-info h3{margin:5px 0}.project-info p{color:var(--muted);font-size:13px;margin:0}.note{margin-top:18px;text-align:center;color:var(--muted);font-size:12px}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.step{padding:20px}.step-num{color:var(--cyan);font-size:12px;font-weight:900}.step h3{font-size:16px;margin:9px 0 5px}.step p{font-size:13px;color:var(--muted);margin:0}.quote-section{background:linear-gradient(180deg,transparent,#8b5cf60b,transparent)}.quote-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start}.quote-copy{padding:16px 0}.quote-copy p{color:var(--muted)}.quote-copy ul{list-style:none;padding:0;color:var(--muted);font-size:14px}.quote-copy li{margin:9px 0}.quote-copy li:before{content:"✦";color:var(--cyan);margin-left:10px}.form-card{padding:clamp(20px,4vw,34px);background:#111522d9}.form-card h3{margin:0 0 5px;font-size:24px}.form-card>p{color:var(--muted);font-size:13px;margin-top:0}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:7px;margin-top:14px}.field label{font-size:13px;color:#d8dced}.field input,.field select,.field textarea{width:100%;background:#090d18;border:1px solid #ffffff1c;color:var(--text);border-radius:12px;padding:12px 13px;outline:none;transition:border-color .2s}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--violet)}.field textarea{min-height:90px;resize:vertical}.range-values{display:flex;justify-content:space-between;gap:12px;margin-top:14px}.range-value{flex:1;padding:12px;border-radius:12px;background:#ffffff07;border:1px solid var(--line)}.range-value small{display:block;color:var(--muted);font-size:11px}.range-value strong{font-size:18px}.range-wrap{margin-top:20px}.range-wrap label{display:flex;justify-content:space-between;font-size:13px;margin-bottom:8px}.range-wrap input{width:100%;accent-color:var(--violet);cursor:pointer}.form-submit{width:100%;margin-top:20px;background:#25d366;color:#062c16;box-shadow:0 10px 30px #25d36620}.form-submit:hover{background:#53e889}.fineprint{font-size:11px;color:var(--muted);text-align:center;margin:10px 0 0}.faq{max-width:820px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:17px 0}.faq summary{cursor:pointer;font-weight:700}.faq details p{color:var(--muted);font-size:14px}.final-cta{border:1px solid #8b5cf642;border-radius:28px;padding:38px;text-align:center;background:radial-gradient(ellipse at 50% 0,#8b5cf628,transparent 70%),#ffffff04}.final-cta p{color:var(--muted)}footer{padding:35px 0 28px;border-top:1px solid var(--line);margin-top:75px;color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:translateY(0)}@keyframes float{0%,100%{translate:0 0}50%{translate:0 -12px}}.toast{position:fixed;bottom:20px;left:20px;right:20px;max-width:450px;margin:auto;padding:13px 17px;border:1px solid var(--line);border-radius:13px;background:#171c2d;color:white;box-shadow:0 15px 50px #0008;display:none;z-index:20;font-size:13px}.toast.show{display:block;animation:fade .25s}@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:35px;gap:15px}.visual{min-height:390px}.hero-copy{text-align:center}.lead{margin-inline:auto}.actions,.micro{justify-content:center}.grid3,.projects{grid-template-columns:1fr 1fr}.quote-layout{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.navlinks{display:none}.tag-one{right:0}.tag-two{left:0}}@media(max-width:540px){.wrap{width:min(100% - 26px,1160px)}.nav{padding:15px 0}.nav .pill{padding:8px 10px;font-size:11px}.hero{padding:35px 0 55px}.visual{min-height:330px}.orb{width:250px;height:250px}.browser{width:94%}.mock-hero{min-height:160px;padding:18px}.mock-hero h3{font-size:19px}.mock-cards{gap:5px}.mock-card{padding:9px 6px}.float-tag{padding:9px 11px}.tag-one{top:10px}.tag-two{bottom:10px}.section{padding:54px 0}.grid3,.projects,.process{grid-template-columns:1fr}.project-art{height:190px}.field-grid{grid-template-columns:1fr;gap:0}.final-cta{padding:27px 18px}h1{letter-spacing:-1.5px}.lead{font-size:15px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#home" aria-label="نقطة - الصفحة الرئيسية"><span class="brand-mark">N</span><span>NEXORA<span class="gradient">.</span></span></a>
+  <nav class="navlinks"><a href="#services">الخدمات</a><a href="#work">نماذج أعمال</a><a href="#steps">طريقة العمل</a><a href="#quote">اطلب موقعك</a></nav>
+  <a class="pill" href="#quote">خلينا نبدأ ↗</a>
+</header>
+<main>
+<section class="wrap hero" id="home">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span class="dot"></span> تصميم مواقع بطابع مختلف</div>
+    <h1>فكرتك تستاهل<br><span class="gradient">موقع يليق بيها.</span></h1>
+    <p class="lead">بنحوّل فكرتك لوجود رقمي مميز — من صفحة تعريفية بسيطة لموقع أعمال متكامل. اختار ميزانيتك، واحكيلنا عن مشروعك، ونبدأ من هنا.</p>
+    <div class="actions"><a class="btn primary" href="#quote">احسب ميزانيتك <span>↓</span></a><a class="btn secondary" href="#work">شوف النماذج <span>↗</span></a></div>
+    <div class="micro"><span>تصميم متجاوب للموبايل</span><span>تواصل مباشر على واتساب</span><span>حلول حسب احتياجك</span></div>
+  </div>
+  <div class="visual reveal" aria-label="معاينة تصميم موقع">
+    <div class="orb"></div>
+    <div class="browser">
+      <div class="browser-top"><i></i><i></i><i></i><span style="margin-right:8px">your-next-website.com</span></div>
+      <div class="mock-site">
+        <div class="mock-nav"><span class="mock-logo">STUDIO<span style="color:#8b5cf6">/</span></span><span>الرئيسية　 الخدمات　 تواصل</span></div>
+        <div class="mock-hero"><small>فكرتك. رؤيتك. حضورك.</small><h3>خلّي شغلك<br>يتكلم عنك.</h3><p>تجربة رقمية مصممة مخصوص لنجاحك.</p><span class="mock-cta">اكتشف المزيد ↗</span></div>
+        <div class="mock-cards"><div class="mock-card"><b>01</b>تصميم مبتكر</div><div class="mock-card"><b>02</b>تجربة سهلة</div><div class="mock-card"><b>03</b>أداء سريع</div></div>
+      </div>
+    </div>
+    <div class="float-tag tag-one"><span style="color:var(--muted)">تصميم مميز</span><strong>✨ من أول نظرة</strong></div>
+    <div class="float-tag tag-two"><span style="color:var(--muted)">متوافق مع</span><strong>موبايل + كمبيوتر</strong></div>
+  </div>
+</section>
+<section class="section wrap" id="services">
+  <div class="section-head reveal"><span class="kicker">إيه اللي نقدر نقدمه؟</span><h2>كل فكرة ليها <span class="gradient">الحل المناسب.</span></h2><p>مش بنبيع قالب وخلاص؛ بنحدد معاك نوع الموقع اللي يخدم هدفك.</p></div>
+  <div class="grid3">
+    <article class="service reveal"><div class="iconbox">✦</div><h3>مواقع تعريفية</h3><p>عرّف الناس بيك وبخدماتك من خلال موقع أنيق وواضح، مناسب للأفراد وأصحاب المهن.</p></article>
+    <article class="service reveal"><div class="iconbox">▦</div><h3>مواقع شركات وأعمال</h3><p>اعرض خدماتك ومميزاتك وأعمالك في تجربة منظمة تساعد العملاء يفهموا نشاطك بسرعة.</p></article>
+    <article class="service reveal"><div class="iconbox">↗</div><h3>متاجر ومنصات خاصة</h3><p>فكرة أكبر؟ نقدر نناقش متجر إلكتروني أو نظام حجز أو منصة حسب المتطلبات والميزانية.</p></article>
+  </div>
+</section>
+<section class="section wrap" id="work">
+  <div class="section-head reveal"><span class="kicker">من معرض الأفكار</span><h2>نماذج تخلّي الصورة <span class="gradient">أوضح.</span></h2><p>دي نماذج تصميم تجريبية لعرض الاتجاهات البصرية، وليست مشاريع عملاء حقيقية.</p></div>
+  <div class="projects">
+    <article class="project reveal"><div class="project-art"><div class="art-window"><div class="art-top">NOVA — CREATIVE STUDIO</div><div class="art-title">أفكار كبيرة.<br>تجربة أكبر.</div><div class="art-lines"></div><div class="art-lines short"></div><div class="art-btn"></div></div></div><div class="project-info"><small>01 / إبداعي</small><h3>موقع استوديو إبداعي</h3><p>هوية جريئة ومساحة لعرض الخدمات والأعمال.</p></div></article>
+    <article class="project reveal"><div class="project-art"><div class="art-window"><div class="art-top">PURE — WELLNESS</div><div class="art-title">اهتم بنفسك،<br>ببساطة.</div><div class="art-lines"></div><div class="art-lines short"></div><div class="art-btn"></div></div></div><div class="project-info"><small>02 / خدمات</small><h3>موقع عيادة أو مركز</h3><p>تصميم هادئ للخدمات والمعلومات وطلب الحجز.</p></div></article>
+    <article class="project reveal"><div class="project-art"><div class="art-window"><div class="art-top">FORME — OBJECTS</div><div class="art-title">تفاصيل صغيرة.<br>فرق كبير.</div><div class="art-lines"></div><div class="art-lines short"></div><div class="art-btn"></div></div></div><div class="project-info"><small>03 / تجارة</small><h3>واجهة متجر إلكتروني</h3><p>عرض منتجات واضح وتجربة تصفح مريحة.</p></div></article>
+  </div>
+  <p class="note">النماذج قابلة للتطوير حسب نشاطك وألوان علامتك التجارية.</p>
+</section>
+<section class="section wrap" id="steps">
+  <div class="section-head reveal"><span class="kicker">من الفكرة للتنفيذ</span><h2>أربع خطوات، <span class="gradient">والبداية بسيطة.</span></h2></div>
+  <div class="process">
+    <article class="step reveal"><span class="step-num">STEP 01</span><h3>احكيلنا عن فكرتك</h3><p>نوع الموقع وهدفك منه.</p></article>
+    <article class="step reveal"><span class="step-num">STEP 02</span><h3>حدد ميزانيتك</h3><p>اختار أقل وأعلى مبلغ يناسبك.</p></article>
+    <article class="step reveal"><span class="step-num">STEP 03</span><h3>نتفق على التفاصيل</h3><p>نراجع المتطلبات والسعر والمدة.</p></article>
+    <article class="step reveal"><span class="step-num">STEP 04</span><h3>نبدأ التنفيذ</h3><p>بعد الاتفاق على نطاق العمل.</p></article>
+  </div>
+</section>
+<section class="section quote-section" id="quote">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="kicker">جاهز تبدأ؟</span><h2>حدد رنجك، <span class="gradient">وخلّي الباقي علينا.</span></h2><p>املأ التفاصيل دي، واضغط الزر عشان تفتح واتساب برسالة جاهزة تقدر تراجعها وتبعتها.</p></div>
+    <div class="quote-layout">
+      <div class="quote-copy reveal"><h2>مش لازم تكون عارف كل التفاصيل.</h2><p>ابدأ بالميزانية والفكرة العامة. هنستخدم رسالتك عشان نفهم المطلوب ونتكلم في التفاصيل.</p><ul><li>مفيش دفع من خلال الصفحة.</li><li>الميزانية المبدئية مش عرض سعر نهائي.</li><li>تكلفة الدومين والاستضافة وأي خدمات خارجية بتتحدد بشكل منفصل حسب المشروع.</li></ul></div>
+      <form class="form-card reveal" id="quoteForm">
+        <h3>تفاصيل مشروعك</h3><p>كل ما التفاصيل تكون أوضح، نقدر نفهم احتياجك أسرع.</p>
+        <div class="field-grid">
+          <div class="field"><label for="name">اسمك أو اسم نشاطك *</label><input id="name" name="name" placeholder="مثلاً: أحمد / عيادة النور" required maxlength="90"></div>
+          <div class="field"><label for="type">نوع الموقع *</label><select id="type" name="type" required><option value="">اختار النوع</option><option>موقع شخصي أو تعريفي</option><option>موقع شركة أو خدمات</option><option>موقع عيادة أو حجوزات</option><option>متجر إلكتروني</option><option>منصة تعليمية</option><option>نظام أو موقع مخصص</option><option>لسه محتاج استشارة</option></select></div>
+        </div>
+        <div class="range-values"><div class="range-value"><small>أقل ميزانية</small><strong id="minOut">٢٬٠٠٠ ج.م</strong></div><div class="range-value"><small>أعلى ميزانية</small><strong id="maxOut">٨٬٠٠٠ ج.م</strong></div></div>
+        <div class="range-wrap"><label for="minBudget"><span>أقل مبلغ تقدر تبدأ بيه</span><strong id="minLabel">٢٬٠٠٠ ج.م</strong></label><input id="minBudget" type="range" min="1000" max="50000" step="500" value="2000"></div>
+        <div class="range-wrap"><label for="maxBudget"><span>أعلى مبلغ مناسب ليك</span><strong id="maxLabel">٨٬٠٠٠ ج.م</strong></label><input id="maxBudget" type="range" min="1000" max="100000" step="500" value="8000"></div>
+        <div class="field"><label for="details">احكيلنا شوية عن فكرتك</label><textarea id="details" name="details" placeholder="إيه الخدمات أو المميزات اللي محتاجها؟ (اختياري)" maxlength="1200"></textarea></div>
+        <button class="btn form-submit" type="submit"><span>✆</span> ابعت طلبك على واتساب</button>
+        <p class="fineprint">واتساب هيفتح برسالة جاهزة؛ لازم تضغط إرسال بنفسك.</p>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="section wrap">
+  <div class="section-head reveal"><span class="kicker">أسئلة سريعة</span><h2>قبل ما <span class="gradient">تبدأ.</span></h2></div>
+  <div class="faq reveal">
+    <details><summary>هل السعر اللي اخترته نهائي؟</summary><p>لأ، ده رنج مبدئي بيوضح الميزانية المناسبة ليك. السعر النهائي بيتحدد بعد معرفة الصفحات والمميزات والمحتوى والتكاملات المطلوبة.</p></details>
+    <details><summary>هل الدومين والاستضافة داخل السعر؟</summary><p>مش بالضرورة. حسب المشروع، ممكن يكون للدومين والاستضافة أو الخدمات الخارجية تكلفة منفصلة، وده بيتوضح قبل الاتفاق.</p></details>
+    <details><summary>هل أقدر أطلب موقع مختلف عن النماذج؟</summary><p>أكيد. النماذج مجرد أمثلة لاتجاهات التصميم، ونقدر نناقش تصميمًا يناسب نشاطك وهويتك.</p></details>
+    <details><summary>هل الطلب بيتبعت تلقائيًا؟</summary><p>الصفحة بتجهز رسالة وتفتح واتساب فقط. أنت بتراجع الرسالة وبتضغط إرسال بنفسك.</p></details>
+  </div>
+</section>
+<section class="wrap reveal"><div class="final-cta"><span class="kicker">أول خطوة لمشروعك الجديد</span><h2>عندك فكرة؟ <span class="gradient">خلينا نسمعها.</span></h2><p>اختار ميزانيتك وابدأ محادثة مباشرة.</p><a class="btn primary" href="#quote">ابدأ طلبك دلوقتي ↗</a></div></section>
+</main>
+<footer><div class="wrap footer-row"><a class="brand" href="#home"><span class="brand-mark">N</span><span>NEXORA<span class="gradient">.</span></span></a><span>NEXORA — Beyond Digital.</span><span>© <span id="year"></span> NEXORA — عدّل البيانات قبل النشر.</span></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+// غيّر رقم الواتساب هنا: كود الدولة + الرقم، بدون + أو مسافات أو شرطات.
+// مثال توضيحي فقط لمصر: 201XXXXXXXXX — استبدله برقمك الحقيقي.
+const WHATSAPP_NUMBER = "201500507754";
+const money = n => new Intl.NumberFormat('ar-EG',{maximumFractionDigits:0}).format(Number(n)) + ' ج.م';
+const minSlider=document.getElementById('minBudget');
+const maxSlider=document.getElementById('maxBudget');
+const toast=document.getElementById('toast');
+function updateBudget(changed){
+  let min=Number(minSlider.value), max=Number(maxSlider.value);
+  if(changed==='min' && min>max){max=min;maxSlider.value=max}
+  if(changed==='max' && max<min){min=max;minSlider.value=min}
+  document.getElementById('minOut').textContent=money(min);
+  document.getElementById('maxOut').textContent=money(max);
+  document.getElementById('minLabel').textContent=money(min);
+  document.getElementById('maxLabel').textContent=money(max);
+}
+minSlider.addEventListener('input',()=>updateBudget('min'));
+maxSlider.addEventListener('input',()=>updateBudget('max'));
+document.getElementById('quoteForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value.trim();
+  const type=document.getElementById('type').value;
+  const min=Number(minSlider.value), max=Number(maxSlider.value);
+  const details=document.getElementById('details').value.trim();
+  if(!name||!type){showToast('من فضلك اكتب اسمك واختار نوع الموقع.');return}
+  if(!/^20\d{10,11}$/.test(WHATSAPP_NUMBER)){
+    showToast('رقم واتساب غير مضبوط. راجع إعداد WHATSAPP_NUMBER داخل الكود.');
+    return;
+  }
+  const message=`أهلًا، أنا ${name}، ومهتم أعمل موقع.\n\nنوع الموقع: ${type}\nالميزانية المتوقعة: من ${money(min)} إلى ${money(max)}\nتفاصيل الفكرة: ${details||'حابب أتكلم في التفاصيل معاكم.'}\n\nوصلت من موقع NEXORA.`;
+  const url='https://wa.me/'+WHATSAPP_NUMBER+'?text='+encodeURIComponent(message);
+  window.open(url,'_blank','noopener,noreferrer');
+});
+function showToast(text){toast.textContent=text;toast.classList.add('show');clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>toast.classList.remove('show'),5000)}
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
